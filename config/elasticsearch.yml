@@ -1,5 +1,7 @@
-network.host: 0.0.0.0
-
-# Set up CORS
-http.cors.enabled: true
+path:
+  data: /data/data
+  logs: /data/log
+  plugins: /data/plugins
+  work: /data/work
 http.cors.allow-origin: "/.*/"
+http.cors.enabled: true
