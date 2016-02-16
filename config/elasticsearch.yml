@@ -1,5 +1,5 @@
 network.host: 0.0.0.0
 
 # Set up CORS
-http.cors.allow-origin: "/.*/"
 http.cors.enabled: true
+http.cors.allow-origin: "/.*/"
